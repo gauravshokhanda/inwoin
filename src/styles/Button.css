@@ -1,0 +1,26 @@
+.btn{
+    height: 64px;
+    width: 160px;
+    font-size: 37px;
+    font-family: cursive;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    margin-top: 200px;
+    transition: width 0.5s;
+    transition:  background-color 1s;
+    transition: color 1s;
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: white;
+    color: tomato;
+    width: 180px;
+    border: 1px solid tomato;
+}
+.text{
+    color: white;
+    font-size: larger;
+}
